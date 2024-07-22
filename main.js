@@ -1,5 +1,5 @@
 // позиция коробля
-const randomLoc = 2
+const randomLoc = Math.floor(Math.random() * 5)  // от 0 до 4 
 const location1 = randomLoc
 const location2 = location1 + 1
 const location3 = location2 + 1
