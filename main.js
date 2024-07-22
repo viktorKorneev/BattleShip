@@ -1,7 +1,7 @@
 // позиция коробля
-const randomLoc = Math.floor(Math.random() * 5)  // от 0 до 4 
-const location1 = randomLoc
-const location2 = location1 + 1
+const randomLoc = Math.floor(Math.random() * 5)  // от 0 до 4 генерация рандомного числа 
+const location1 = randomLoc                      //  Math.random() * 5 генерирует дробное число кроме 5
+const location2 = location1 + 1                  //  Math.floor() отсекает дробную часть
 const location3 = location2 + 1
 
 // потоплен или нет
