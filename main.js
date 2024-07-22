@@ -1,7 +1,8 @@
 // позиция коробля
-const location1 = 3;
-const location2 = 4;
-const location3 = 5;
+const randomLoc = 2
+const location1 = randomLoc
+const location2 = location1 + 1
+const location3 = location2 + 1
 
 // потоплен или нет
 let isSunk = false;
@@ -12,6 +13,7 @@ let hits = 0;
 
 while (isSunk === false) {
   guess = +prompt("Fire! Enter a number 0-6"); // +prompt строковое значение превратим в число при помощи +
+  //   если пользователь введет не правильное число
   if (guess < 0 || guess > 6) {
     alert("Please, enter a valid cell number!");
   } else {
