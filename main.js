@@ -17,8 +17,11 @@ while (isSunk === false) {
         alert("HIT!")
         // считаем попадания
         hits = hits + 1 
-        
-        if(hits === 3)
+        // если подбили
+        if(hits === 3){
+            isSunk = true
+            alert("You sank my battleship!")
+        }
     } else {
         alert("MISS!")
     }
