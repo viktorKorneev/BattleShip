@@ -7,5 +7,5 @@ let guess;
 
 
 while (isSunk === false) {
-    guess = prompt("Fire! Enter a number 0-6")
+    guess = +prompt("Fire! Enter a number 0-6") // +prompt строковое значение превратим в число при помощи +
 }
