@@ -7,7 +7,8 @@ const location3 = 5;
 let isSunk = false;
 // предполагаемоя позиция корабля ("выстрел")
 let guess;
-
+// дабавим счётчик попаданий
+let hits = 0;
 
 while (isSunk === false) {
     guess = +prompt("Fire! Enter a number 0-6") // +prompt строковое значение превратим в число при помощи +
